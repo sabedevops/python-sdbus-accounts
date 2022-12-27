@@ -9,10 +9,17 @@ from .interfaces import (
     OrgFreedesktopAccountsUserInterface
 )
 
+from .objects import (
+    AccountsService,
+    AccountsUser
+)
+
 __all__ = (
     'ComEndlessmParentalControlsAccountInfoInterface',
     'ComEndlessmParentalControlsAppFilterInterface',
     'ComEndlessmParentalControlsSessionLimitsInterface',
     'OrgFreedesktopAccountsInterface',
-    'OrgFreedesktopAccountsUserInterface'
+    'OrgFreedesktopAccountsUserInterface',
+    'AccountsService',
+    'AccountsUser'
 )
